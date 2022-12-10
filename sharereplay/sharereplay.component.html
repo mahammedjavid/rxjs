@@ -1,0 +1,41 @@
+<p>sharereplay works!</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>URL</th>
+            <th>thumbnailUrl</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of items | async">
+            <td scope="row">{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.username}}</td>
+            <td>{{data.email}}</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>URL</th>
+            <th>thumbnailUrl</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of otheritem | async">
+            <td scope="row">{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.username}}</td>
+            <td>{{data.email}}</td>
+        </tr>
+
+    </tbody>
+</table>

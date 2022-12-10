@@ -1,0 +1,30 @@
+<p>rxjs3 works!</p>
+
+<h3>{{name}}</h3>
+
+<h4 [innerText]="name"></h4>
+
+<ul id="dataList"></ul>
+
+<ul id="mapData"></ul>
+
+<h6>{{mapStatus}}</h6>
+
+
+<table>
+    <tr>
+        <th>Name</th>
+    </tr>
+    <tr *ngFor="let data of pluckData">
+        <td>
+            {{data}}
+        </td>
+    </tr>
+</table>
+
+
+
+<ul id="colorUI" [ngStyle]="{'color' : myColor}"></ul>
+
+
+<ul id="takeUntill"></ul>

@@ -1,0 +1,27 @@
+<p>subject works!</p>
+<!-- 
+<span>My Name is <strong>{{data}}</strong></span>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br> -->
+
+
+<!-- !Replay Subject -->
+
+<input type="text" placeholder="Add video" #input>
+
+<button type="submit" (click)="submit(input)">Submit</button>
+
+<br><br>
+
+<ul>
+    <li *ngFor="let data of replay">{{data}}</li>
+</ul>
+
+
+<app-comp1></app-comp1>
+<app-comp2></app-comp2>

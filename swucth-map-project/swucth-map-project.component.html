@@ -1,0 +1,23 @@
+<form action="" [formGroup]="searchForm">
+    <input type="text" formControlName="search" name="search">
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>URL</th>
+            <th>thumbnailUrl</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of items ">
+            <td scope="row">{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.username}}</td>
+            <td>{{data.email}}</td>
+        </tr>
+    </tbody>
+</table>

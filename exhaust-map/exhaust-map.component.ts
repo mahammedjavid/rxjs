@@ -21,7 +21,6 @@ export class ExhaustMapComponent implements AfterViewInit {
       .subscribe((x) => {
         // console.log(x)  //!result
       })
-
   }
 
   fetch(): any {

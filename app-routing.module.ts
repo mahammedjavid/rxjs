@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AsyncComponent } from './async/async.component';
+import { CombinedComponent } from './combined/combined.component';
 import { ConcatMergeComponent } from './concat-merge/concat-merge.component';
 import { DynamicHtmlrxJsComponent } from './dynamic-htmlrx-js/dynamic-htmlrx-js.component';
+import { ErrorComponent } from './error/error.component';
 import { ExhaustMapComponent } from './exhaust-map/exhaust-map.component';
 import { MargeMapComponent } from './marge-map/marge-map.component';
 import { Rxjs2Component } from './rxjs2/rxjs2.component';
@@ -47,6 +49,12 @@ const routes: Routes = [
   },
   {
     path: 'shareReplay', component: SharereplayComponent
+  },
+  {
+    path: 'combined', component: CombinedComponent
+  },
+  {
+    path: 'error', component: ErrorComponent
   }
 ];
 

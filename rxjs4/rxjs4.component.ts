@@ -19,7 +19,7 @@ export class Rxjs4Component implements OnInit, AfterViewInit {
   @ViewChild('myInput') input!: ElementRef
 
   ngOnInit() {
-
+    
   }
 
   ngAfterViewInit(): void {

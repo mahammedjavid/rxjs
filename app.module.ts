@@ -19,7 +19,9 @@ import { MargeMapComponent } from './marge-map/marge-map.component';
 import { DynamicHtmlrxJsComponent } from './dynamic-htmlrx-js/dynamic-htmlrx-js.component';
 import { SwucthMapProjectComponent } from './swucth-map-project/swucth-map-project.component';
 import { ExhaustMapComponent } from './exhaust-map/exhaust-map.component';
-import { SharereplayComponent } from './sharereplay/sharereplay.component'
+import { SharereplayComponent } from './sharereplay/sharereplay.component';
+import { CombinedComponent } from './combined/combined.component';
+import { ErrorComponent } from './error/error.component'
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { SharereplayComponent } from './sharereplay/sharereplay.component'
     DynamicHtmlrxJsComponent,
     SwucthMapProjectComponent,
     ExhaustMapComponent,
-    SharereplayComponent
+    SharereplayComponent,
+    CombinedComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
